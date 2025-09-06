@@ -39,8 +39,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<httpclient.version>4.5.14</httpclient.version>
-		<httpcore.version>4.4.16</httpcore.version>
+		<httpclient.version>5.5</httpclient.version>
+		<httpcore.version>5.3.5</httpcore.version>
 		<jackson.version>2.20.0</jackson.version>
 		<jackson-annotations.version>2.20</jackson-annotations.version>
 		<junit.version>4.13.2</junit.version>
@@ -104,8 +104,8 @@
 				<scope>test</scope>
 			</dependency>
 			<dependency>
-				<groupId>org.apache.httpcomponents</groupId>
-				<artifactId>httpclient-osgi</artifactId>
+				<groupId>org.apache.httpcomponents.client5</groupId>
+				<artifactId>httpclient5</artifactId>
 				<version>${httpclient.version}</version>
 				<exclusions>
 					<exclusion>
@@ -115,8 +115,8 @@
 				</exclusions>
 			</dependency>
 			<dependency>
-				<groupId>org.apache.httpcomponents</groupId>
-				<artifactId>httpclient</artifactId>
+				<groupId>org.apache.httpcomponents.client5</groupId>
+				<artifactId>httpclient5-cache</artifactId>
 				<version>${httpclient.version}</version>
 				<exclusions>
 					<exclusion>
@@ -126,18 +126,7 @@
 				</exclusions>
 			</dependency>
 			<dependency>
-				<groupId>org.apache.httpcomponents</groupId>
-				<artifactId>httpclient-cache</artifactId>
-				<version>${httpclient.version}</version>
-				<exclusions>
-					<exclusion>
-						<artifactId>commons-logging</artifactId>
-						<groupId>commons-logging</groupId>
-					</exclusion>
-				</exclusions>
-			</dependency>
-			<dependency>
-				<groupId>org.apache.httpcomponents</groupId>
+				<groupId>org.apache.httpcomponents.client5</groupId>
 				<artifactId>fluent-hc</artifactId>
 				<version>${httpclient.version}</version>
 				<exclusions>
@@ -148,7 +137,7 @@
 				</exclusions>
 			</dependency>
 			<dependency>
-				<groupId>org.apache.httpcomponents</groupId>
+				<groupId>org.apache.httpcomponents.client5</groupId>
 				<artifactId>httpmime</artifactId>
 				<version>${httpclient.version}</version>
 				<exclusions>
@@ -159,8 +148,8 @@
 				</exclusions>
 			</dependency>
 			<dependency>
-				<groupId>org.apache.httpcomponents</groupId>
-				<artifactId>httpcore-osgi</artifactId>
+				<groupId>org.apache.httpcomponents.client5</groupId>
+				<artifactId>httpcore5-osgi</artifactId>
 				<version>${httpcore.version}</version>
 				<exclusions>
 					<exclusion>
@@ -170,8 +159,8 @@
 				</exclusions>
 			</dependency>
 			<dependency>
-				<groupId>org.apache.httpcomponents</groupId>
-				<artifactId>httpcore</artifactId>
+				<groupId>org.apache.httpcomponents.client5</groupId>
+				<artifactId>httpcore5</artifactId>
 				<version>${httpcore.version}</version>
 				<exclusions>
 					<exclusion>
@@ -181,8 +170,8 @@
 				</exclusions>
 			</dependency>
 			<dependency>
-				<groupId>org.apache.httpcomponents</groupId>
-				<artifactId>httpcore-nio</artifactId>
+				<groupId>org.apache.httpcomponents.client5</groupId>
+				<artifactId>httpcore5-nio</artifactId>
 				<version>${httpcore.version}</version>
 				<exclusions>
 					<exclusion>
