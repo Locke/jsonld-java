@@ -438,7 +438,7 @@
 				<plugin>
 					<groupId>org.apache.felix</groupId>
 					<artifactId>maven-bundle-plugin</artifactId>
-					<version>5.1.9</version>
+					<version>6.0.0</version>
 				</plugin>
 				<!-- Create code coverage reports and submit them to coveralls.io. -->
 				<plugin>
