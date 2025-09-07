@@ -439,7 +439,7 @@
 				<plugin>
 					<groupId>org.apache.felix</groupId>
 					<artifactId>maven-bundle-plugin</artifactId>
-					<version>3.5.1</version>
+					<version>5.1.9</version>
 				</plugin>
 				<!-- Create code coverage reports and submit them to coveralls.io. -->
 				<plugin>
