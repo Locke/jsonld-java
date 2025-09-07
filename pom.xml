@@ -259,7 +259,7 @@
 							<configuration>
 								<rules>
 									<enforceBytecodeVersion>
-										<maxJdkVersion>17</maxJdkVersion>
+										<maxJdkVersion>17</maxJdkVersion> <!-- this checks if any dependency is only available for a more recent jdk version -->
 									</enforceBytecodeVersion>
 								</rules>
 								<fail>true</fail>

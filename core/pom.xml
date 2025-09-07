@@ -121,6 +121,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<instructions>
+						<!-- FIXME: does this need an update, as we upgraded slf4j? -->
 						<Import-Package>
 							!com.google.common.*,
 							org.slf4j.*; version="[1.0.0,2)",
