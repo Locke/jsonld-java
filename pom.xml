@@ -394,7 +394,7 @@
 					<configuration>
 						<signature>
 							<groupId>org.codehaus.mojo.signature</groupId>
-							<artifactId>java18</artifactId>
+							<artifactId>java18</artifactId><!-- FIXME: what is this for? Do we need this / need to change this when updating from Java 8 (1.8) to 11? -->
 							<version>1.0</version>
 						</signature>
 					</configuration>
