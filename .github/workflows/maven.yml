@@ -19,7 +19,7 @@ jobs:
       fail-fast: false # one failing job does not terminate the other jobs, so that we can see if a failure is reproducible or OS/JDK-specific
       matrix:
         os: ['ubuntu-latest', 'windows-latest', 'macos-latest']
-        jdk: ['11', '17', '21']
+        jdk: ['17', '21']
         experimental: [false]
         include:
           - os: 'ubuntu-latest'

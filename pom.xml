@@ -246,7 +246,7 @@
 										<version>[3.0.5,)</version>
 									</requireMavenVersion>
 									<requireJavaVersion>
-										<version>[11,)</version>
+										<version>[17,)</version>
 									</requireJavaVersion>
 								</rules>
 							</configuration>
@@ -259,7 +259,7 @@
 							<configuration>
 								<rules>
 									<enforceBytecodeVersion>
-										<maxJdkVersion>11</maxJdkVersion>
+										<maxJdkVersion>17</maxJdkVersion>
 									</enforceBytecodeVersion>
 								</rules>
 								<fail>true</fail>
@@ -279,7 +279,7 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.14.0</version>
 					<configuration>
-						<release>11</release>
+						<release>17</release>
 					</configuration>
 				</plugin>
 				<plugin>
@@ -394,7 +394,7 @@
 					<configuration>
 						<signature>
 							<groupId>org.codehaus.mojo.signature</groupId>
-							<artifactId>java18</artifactId><!-- FIXME: what is this for? Do we need this / need to change this when updating from Java 8 (1.8) to 11? -->
+							<artifactId>java18</artifactId><!-- FIXME: what is this for? Do we need this / need to change this when updating from Java 8 (1.8) to 11/17? -->
 							<version>1.0</version>
 						</signature>
 					</configuration>
