@@ -23,11 +23,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpclient-osgi</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpcore-osgi</artifactId>
+			<artifactId>httpclient-cache</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
