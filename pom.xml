@@ -33,6 +33,7 @@
 
 	<modules>
 		<module>core</module>
+		<module>osgi</module>
 	</modules>
 
 	<properties>
@@ -54,6 +55,17 @@
 
 	<dependencyManagement>
 		<dependencies>
+
+			<!-- START inter-module dependencies -->
+
+			<dependency>
+				<groupId>com.github.jsonld-java</groupId>
+				<artifactId>jsonld-java</artifactId>
+				<version>${revision}</version>
+			</dependency>
+
+			<!-- END inter-module dependencies -->
+
 			<dependency>
 				<groupId>com.fasterxml.jackson</groupId>
 				<artifactId>jackson-bom</artifactId>
